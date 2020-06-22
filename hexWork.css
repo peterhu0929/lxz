@@ -1,0 +1,149 @@
+@font-face {
+  font-family: jf-jinxuan-bold;
+  src: local("Arial Regular"),
+  url(assets/font/jf-jinxuan-bold.otf)
+}
+@font-face {
+  font-family: jf-jinxuan-book;
+  src: local("Arial Regular"),
+  url(assets/font/jf-jinxuan-book.otf)
+}
+.card {
+  width: 330px;
+  height: 570px;
+  border: 1px solid grey;
+  /* border-radius: 10px; */
+  overflow: hidden;
+
+  background-image: url("./assets/LXZbg.png");
+  background-color:white;
+  background-size: 70px 70px;
+  /* background-repeat: repeat; */
+}
+.card-top{
+  height: 152px;
+  background-color:#d0121b;
+}
+.card-profile-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 29px;
+}
+.card-content{
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  margin-top: 210px;
+  /* padding-bottom: 230px; */
+}
+.card-bottom{
+  display: flex;
+  justify-content: space-around;
+  /* font-size:9px; */
+  /* margin-top: 80px; */
+  position: relative;
+  margin-top: 29px;
+  margin-bottom: 22px;
+}
+.content-eng-name{
+  font-size: 30pt;
+  font-family: jf-jinxuan-bold;
+}
+.content-chi-name{
+  font-size: 25.5pt;
+  font-family: jf-jinxuan-bold;
+}
+.content-dept-name{
+  font-size: 17pt;
+  font-family: jf-jinxuan-book;
+}
+.bottom-id{
+  font-size: 12pt;
+  font-family: jf-jinxuan-bold;
+}
+.bottom-date{
+  font-size: 12pt;
+  font-family: "Arial Regular";
+ 
+}
+.bottom-time{
+  font-size: 12t;
+  font-family: "Arial Regular";
+ 
+}
+
+
+
+
+
+.logo-img{
+  margin-top: 51px;
+  margin-left:90px; 
+  margin-bottom:51px; 
+  width: 150px;
+}
+.profile-img{
+/* margin-top: 12px; */
+width: 200px;
+height: 200px;
+background-position: center;
+background-size: cover;
+border-radius: 50%
+}
+img {
+position: absolute;
+z-index: 1;
+}
+.store-title{
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  font-size: 21.7pt;
+}
+.store{
+  margin-top: 10px;
+  width: 330px;
+  height: 80px;
+  /* border: 0.5px solid #333; */
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* border-radius: 10px; */
+  
+}
+.store-name{
+  margin-top: 5px;
+  font-family: "微軟正黑體";
+  font-weight: bold;
+  font-size: 15pt;
+}
+.store-content{
+  font-family: "微軟正黑體";
+  font-size: 12pt;
+  /* margin-bottom: 5px; */
+}
+.store-feature{
+  font-family: "微軟正黑體";
+  font-size: 12pt;
+  /* margin-bottom: 5px; */
+}
+
+
+
+
+
+
+
+
+body {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: lightgrey;
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+}
