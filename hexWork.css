@@ -10,14 +10,15 @@
 }
 .card {
   width: 330px;
-  height: 570px;
-  border: 1px solid grey;
+  height: 550px;
+  /* border: 1px solid grey; */
   /* border-radius: 10px; */
   overflow: hidden;
 
   background-image: url("./assets/LXZbg.png");
   background-color:white;
-  background-size: 70px 70px;
+  /* background-color:rgba(255,255,255,0.3); */
+  background-size: 90px 90px;
   /* background-repeat: repeat; */
 }
 .card-top{
@@ -28,6 +29,7 @@
   display: flex;
   justify-content: center;
   margin-top: 29px;
+  margin-bottom: 29px;
 }
 .card-content{
   display: flex;
@@ -44,6 +46,8 @@
   /* position: relative; */
   margin-top: 29px;
   margin-bottom: 22px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .content-eng-name{
   font-size: 30px;
@@ -97,7 +101,9 @@ z-index: 1;
 .store-title{
   font-family: "微軟正黑體";
   font-weight: bold;
-  font-size: 21.7pt;
+  font-size: 21.7px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .store{
   margin-top: 10px;
@@ -114,16 +120,16 @@ z-index: 1;
   margin-top: 5px;
   font-family: "微軟正黑體";
   font-weight: bold;
-  font-size: 15pt;
+  font-size: 21px;
 }
 .store-content{
   font-family: "微軟正黑體";
-  font-size: 12pt;
+  font-size: 16px;
   /* margin-bottom: 5px; */
 }
 .store-feature{
   font-family: "微軟正黑體";
-  font-size: 12pt;
+  font-size: 16px;
   /* margin-bottom: 5px; */
 }
 
@@ -140,7 +146,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: lightgrey;
+  background: #e6e6e6;
 }
 *{
   margin:0;
