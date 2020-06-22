@@ -41,33 +41,33 @@
   justify-content: space-around;
   /* font-size:9px; */
   /* margin-top: 80px; */
-  position: relative;
+  /* position: relative; */
   margin-top: 29px;
   margin-bottom: 22px;
 }
 .content-eng-name{
-  font-size: 30pt;
+  font-size: 30px;
   font-family: jf-jinxuan-bold;
 }
 .content-chi-name{
-  font-size: 25.5pt;
+  font-size: 25.5px;
   font-family: jf-jinxuan-bold;
 }
 .content-dept-name{
-  font-size: 17pt;
+  font-size: 17px;
   font-family: jf-jinxuan-book;
 }
 .bottom-id{
-  font-size: 12pt;
+  font-size: 19px;
   font-family: jf-jinxuan-bold;
 }
 .bottom-date{
-  font-size: 12pt;
+  font-size: 19px;
   font-family: "Arial Regular";
  
 }
 .bottom-time{
-  font-size: 12t;
+  font-size: 19px;
   font-family: "Arial Regular";
  
 }
