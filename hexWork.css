@@ -29,14 +29,18 @@
   display: flex;
   justify-content: center;
   margin-top: 29px;
-  margin-bottom: 29px;
+  /* margin-bottom: 29px; */
 }
 .card-content{
   display: flex;
   align-items:center;
   flex-direction:column;
   margin-top: 210px;
-  /* padding-bottom: 230px; */
+  padding-top: 5px;
+}
+.card-space{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .card-bottom{
   display: flex;
