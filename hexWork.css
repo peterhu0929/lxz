@@ -37,6 +37,7 @@
   flex-direction:column;
   margin-top: 210px;
   padding-top: 5px;
+  position: relative;
 }
 .card-space{
   margin-top: 5px;
