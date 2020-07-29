@@ -146,10 +146,19 @@ z-index: 1;
   font-size: 16px;
   /* margin-bottom: 5px; */
 }
-
-
-
-
+.nav-tabs{
+  background: lightgrey;
+}
+.nav-tabs .nav-item
+{
+  font-size:60px;
+  display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between
+}
+.nav-tabs .nav-link{
+  color: white;
+}
 
 
 
